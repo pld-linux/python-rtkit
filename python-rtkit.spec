@@ -16,7 +16,7 @@ Source0:	https://github.com/z4r/python-rtkit/archive/%{version}.tar.gz
 # Source0-md5:	676b715bd843181dc27c14b0700b30af
 URL:		http://z4r.github.io/python-rtkit/
 BuildRequires:	rpmbuild(macros) >= 1.219
-BuildRequires:	sphinx-pdg
+%{?with_doc:BuildRequires:	sphinx-pdg}
 %if %{with python2}
 BuildRequires:	python-devel
 BuildRequires:	python-distribute
