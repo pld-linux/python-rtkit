@@ -9,7 +9,7 @@
 Summary:	Request Tracker data access for REST interface
 Name:		python-%{module}
 Version:	0.7.0
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://github.com/z4r/python-rtkit/archive/%{version}.tar.gz
